@@ -1,0 +1,142 @@
+{
+    "name": "Mario Ationgsi Pasama",
+    "description": "Flutter developer with a passion for building sleek, cross-platform mobile apps. Focused on performance and user experience.",
+    "img_profile": "img_profile.jpg",
+    "skill": [
+        {
+            "icon": "Flutter-Dark.svg",
+            "label": "Flutter",
+            "type": "FRAMEWORK",
+            "status": null
+        },
+        {
+            "icon": "Laravel-Dark.svg",
+            "label": "Laravel",
+            "type": "FRAMEWORK",
+            "status": "Learning"
+        },
+        {
+            "icon": "codeigniter-icon.svg",
+            "label": "Codeigniter",
+            "type": "FRAMEWORK",
+            "status": null
+        },
+        {
+            "icon": "Svelte.svg",
+            "label": "Svelte",
+            "type": "FRAMEWORK",
+            "status": "Learning"
+        },
+        {
+            "icon": "Python-Dark.svg",
+            "label": "Python",
+            "type": "PROGRAMMING_LANGUAGE",
+            "status": null
+        },
+        {
+            "icon": "Dart-Dark.svg",
+            "label": "Dart",
+            "type": "PROGRAMMING_LANGUAGE",
+            "status": null
+        },
+        {
+            "icon": "JavaScript.svg",
+            "label": "Javascript",
+            "type": "PROGRAMMING_LANGUAGE",
+            "status": "Learning"
+        },
+        {
+            "icon": "PHP-Dark.svg",
+            "label": "PHP",
+            "type": "PROGRAMMING_LANGUAGE",
+            "status": null
+        },
+        {
+            "icon": "TypeScript.svg",
+            "label": "Typescript",
+            "type": "PROGRAMMING_LANGUAGE",
+            "status": "Learning"
+        }
+    ],
+    "social_media": [
+        {
+            "icon": "<svg xmlns='http://www.w3.org/2000/svg' width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-instagram\"><rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"5\" ry=\"5\"></rect><path d=\"M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z\"></path><line x1=\"17.5\" y1=\"6.5\" x2=\"17.51\" y2=\"6.5\"></line></svg>",
+            "label": "Instagram",
+            "link": "https://instagram.com/riopasama"
+        },
+        {
+            "icon": "<svg xmlns='http://www.w3.org/2000/svg' width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-linkedin\"><path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle></svg>",
+            "label": "LinkedIn",
+            "link": "https://linkedin.com/in/mario-pasama"
+        },
+        {
+            "icon": "<svg xmlns='http://www.w3.org/2000/svg' width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-github\"><path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path></svg>",
+            "label": "GitHub",
+            "link": "https://github.com/marioapasama"
+        },
+        {
+            "icon": "<svg xmlns='http://www.w3.org/2000/svg' width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-medium\"><path d=\"M2.81 2.81v18.38c0 1.54 1.25 2.81 2.81 2.81h15.54c1.54 0 2.81-1.27 2.81-2.81V2.81c0-1.54-1.27-2.81-2.81-2.81H5.62c-1.56 0-2.81 1.27-2.81 2.81z\"></path><circle cx=\"7.5\" cy=\"12\" r=\"2.5\"></circle><path d=\"M12 12c0 2.76 2.24 5 5 5h2c2.76 0 5-2.24 5-5s-2.24-5-5-5h-2c-2.76 0-5 2.24-5 5z\"></path></svg>",
+            "label": "Medium",
+            "link": "https://medium.com/@rio.pasama"
+        }
+    ],
+    "contact": {
+        "email": "work.riopasama@gmail.com",
+        "phone": "+62 895-4286-99124",
+        "address": "Yogyakarta, Indonesia"
+    },
+    "experience": [
+        {
+            "logo": "",
+            "company": "CV. KREASI TEKNOLOGI NUSANTARA",
+            "position": [
+                {
+                    "name_position": "Mobile Application Developer",
+                    "description_html": "Outsourcing<br>Flutter Developer",
+                    "address": "Jl. Duren Raya Blok Perumnas Kel. Sukamaleng, Kec. Subang Jawa Barat – Indonesia",
+                    "start_date": "08-2021",
+                    "end_date": "10-2021"
+                }
+            ]
+        },
+        {
+            "logo": "",
+            "company": "CV Andi Global Soft",
+            "position": [
+                {
+                    "name_position": "Mobile Application Developer",
+                    "description_html": "Flutter Developer",
+                    "address": "Yogyakarta, Indonesia",
+                    "start_date": "01-2022",
+                    "end_date": "07-2023"
+                }
+            ]
+        },
+        {
+            "logo": "",
+            "company": "CV Andi Global Soft",
+            "position": [
+                {
+                    "name_position": "Full Stack Mobile Developer",
+                    "description_html": "Front End Flutter<br>Back End Codeigniter 3",
+                    "address": "Yogyakarta, Indonesia",
+                    "start_date": "01-2022",
+                    "end_date": "07-2023"
+                }
+            ]
+        },
+        {
+            "logo": "",
+            "company": "RSPAU dr.S.Hardjolukito",
+            "position": [
+                {
+                    "name_position": "Full Stack Developer",
+                    "description_html": "Codeigniter 3 <br> Python <br> Flutter",
+                    "address": "Kota Yogyakarta",
+                    "start_date": "11-2023",
+                    "end_date": "Present"
+                }
+            ]
+        }
+    ]
+}

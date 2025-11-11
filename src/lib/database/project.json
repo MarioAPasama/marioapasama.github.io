@@ -1,0 +1,22 @@
+[
+    {
+        "cover": "covid_app.webp",
+        "title": "COVID 19 INFORMATION",
+        "description_html": ""
+    },
+    {
+        "cover": "bahana_digital_app.webp",
+        "title": "Bahana Digital",
+        "description_html": ""
+    },
+    {
+        "cover": "flm_app_web.webp",
+        "title": "FLM",
+        "description_html": ""
+    },
+    {
+        "cover": "sertidemi_app.webp",
+        "title": "Sertidemi",
+        "description_html": ""
+    }
+]
