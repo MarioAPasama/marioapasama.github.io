@@ -1,9 +1,15 @@
 <script lang="ts">
+    import IconButton from "./widgets/IconButton.svelte";
+    import TextButton from "./widgets/TextButton.svelte";
     import profile from "$lib/database/profile.json";
     import type { SocialMedia, Contact } from "$lib/model/profile";
 
     const contactInfo: Contact = profile.contact;
     const socialMedia: SocialMedia[] = profile.social_media;
+
+    function onClick(link: string) {
+        window.open(link, "_blank", "noopener,noreferrer");
+    }
 </script>
 
 <section class="page contact-section">
@@ -30,7 +36,11 @@
                         d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
                     ></path><polyline points="22,6 12,13 2,6"></polyline></svg
                 >
-                <a href="mailto:{contactInfo.email}">{contactInfo.email}</a>
+                <TextButton
+                    text={contactInfo.email}
+                    variant="secondary"
+                    onClick={() => onClick(`mailto:${contactInfo.email}`)}
+                />
             </div>
             <div class="contact-item">
                 <svg
@@ -48,9 +58,14 @@
                         d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
                     ></path></svg
                 >
-                <a href="https://api.whatsapp.com/send?phone=62895428699124"
-                    >{contactInfo.phone}</a
-                >
+                <TextButton
+                    text={contactInfo.phone}
+                    variant="secondary"
+                    onClick={() =>
+                        onClick(
+                            `https://api.whatsapp.com/send?phone=62895428699124`,
+                        )}
+                />
             </div>
         </div>
 
@@ -58,15 +73,12 @@
             <h3>Find Me On</h3>
             <div class="social-icons">
                 {#each socialMedia as social}
-                    <a
-                        href={social.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        title={social.label}
-                        class="social-icon"
-                    >
-                        {@html social.icon}
-                    </a>
+                    <IconButton
+                        icon={social.icon}
+                        label={social.label}
+                        link={social.link}
+                        variant="svg"
+                    />
                 {/each}
             </div>
         </div>
@@ -135,33 +147,10 @@
         flex-shrink: 0;
     }
 
-    .contact-item a {
-        font-size: 1rem;
-        color: var(--secondary-text-color);
-        text-decoration: none;
-        word-break: break-all;
-    }
-    .contact-item a:hover {
-        text-decoration: underline;
-        color: var(--primary-color);
-    }
-
     .social-icons {
         display: flex;
         gap: 1.5rem;
         align-items: center;
-    }
-
-    .social-icon {
-        color: var(--secondary-text-color);
-        transition:
-            transform 0.2s ease-in-out,
-            color 0.2s ease-in-out;
-    }
-
-    .social-icon:hover {
-        color: var(--primary-color);
-        transform: translateY(-4px);
     }
 
     @media (max-width: 768px) {
